@@ -1,0 +1,146 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 100vw;
+    min-height: 100vh;
+}
+
+
+.input:focus {
+    background-color: aquamarine;
+}
+
+.uu:focus {
+    background-color: aquamarine;
+}
+
+.name:focus {
+    background-color: aquamarine;
+}
+
+.pp:focus {
+    background-color: aquamarine;
+}
+
+.error {
+    color: red;
+    font-size: 13px;
+    display: none;
+    /*caché par defaut */
+}
+
+.bloc1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.bb {
+    font-size: 25px;
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: center;
+
+
+
+}
+
+.label {
+    margin-right: 20px;
+    width: 30%;
+}
+
+.pp {
+    width: 600px;
+    height: 50px;
+}
+
+.form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+    width: 700px;
+    height: auto;
+    background-color: pink;
+    gap: 50px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+
+    margin-top: 30px;
+
+
+}
+
+
+.cl {
+    width: 600px;
+    height: 50px;
+
+
+}
+
+.deux {
+    width: 290px;
+    background-color: white;
+    border: solid 2px gray;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.radio {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.button {
+    width: 600px;
+    height: 30px;
+    background-color: green;
+    border-radius: 10%;
+
+}
+
+.mm {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.input {
+    width: 290px;
+    height: auto;
+    height: 50px;
+
+
+}
+
+.grand {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "sandra", sans-serif !important;
+}
+
+.uu {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+@media (min-width:730px) {
+
+    .bloc1 {
+        flex-wrap: wrap;
+    }
+}

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="./style.css">
+
+<body>
+
+    <div class="block">
+
+        <form id="Form" class="first" action="">
+
+            <div class="bb">
+                <div class="all">
+                    <h4>
+                        Montage Calculator
+
+                    </h4>
+                    <h5>
+                        clear All
+                    </h5>
+                </div>
+
+                <div class="label">
+                    <label for="">Montage Amount</label>
+                    <span class="input-prefix"></span>
+                    <input id="Montage" class="pp" type="text" value="$   300">
+                    <span class="input-suffix"></span>
+                    <span id="Montage-error" class="error">This field is required</span>
+
+                    <div>
+                        <div class="deux">
+                            <label for="Team">Mortgage Term (years)</label>
+                            <label for="Rate">Interest Rate (%)</label>
+                        </div>
+
+
+
+                        <div class="un">
+
+                            <input id="Team" class="input" type="text">
+
+                            <input id="Rate" class="input" type="text">
+
+
+                        </div>
+                        <span id="Team-error" class="error">This field is required</span>
+                        <span id="Rate-error" class="error">This field is required</span>
+
+                    </div>
+                </div>
+                <div class="block">
+                    <label for="">Montage type</label>
+                    <div class="radio">
+
+                        <input id="radio1" type="radio" name="choix">
+                        <span id="radio1-error" class="error">This field is required</span>
+                        <label for="name">Repayment</label>
+
+                    </div>
+                    <div class="radio">
+                        <input id="radio2" type="radio" name="choix">
+                        <span id="radio2-error" class="error">This field is required</span>
+                        <label for="name">interest only</label>
+
+                    </div>
+
+
+                </div>
+
+
+                <div>
+                    <button class="nn" id="submit" type="submit">
+                        <img class="img1" src="./image/icon-calculator.svg" alt="">
+
+                        Calcule Repayments
+                    </button>
+                    <span id="button-error" class="error">This field is required</span>
+                </div>
+
+
+
+            </div>
+
+
+            <div class="second">
+                <img class="img" src="./image/illustration-empty.svg" alt="">
+                <p class="text">
+                    Complete the form and click" Calcule Repayments" to see what too monthyl repayement would be
+                </p>
+            </div>
+
+        </form>
+    </div>
+
+
+
+
+
+    </div>
+
+
+</body>
+<script src="./script.js"></script>
+
+</html>
