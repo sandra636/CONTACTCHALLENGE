@@ -21,7 +21,7 @@ Plateform web permettant de faciliter les rencontres virtuelles entre encadrants
 
 membre 1 : BIKAKA SANDRA-Branche:'main'
 membre 2 : BANGFOFACK-Branche:'BANGFOFACK'
-membre 3 : TAYOUO TALLA-Branche:'Tayouo'
+membre 3 : TAYOUO TALA-Branche:'Tayouo'
 
 ## Technologie
 
