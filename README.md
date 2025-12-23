@@ -17,7 +17,7 @@ If you are developing a production application, we recommend using TypeScript wi
 
 #plateform web de suivi des Encadrements des étudiants de 3IAC
 Plateform web permettant de faciliter les rencontres virtuelles entre encadrants et étudiants, en complément des rencontres en présentiel, et permettre à l'administration de s'assurer que les encadrements sont effectifs.
-## Equipe :
+## Equipes :
 
 membre 1 : BIKAKA SANDRA-Branche:'main'
 membre 2 : BANGFOFACK-Branche:'BANGFOFACK'
