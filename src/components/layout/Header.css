@@ -1,0 +1,127 @@
+/* Header.css */
+.header {
+  background-color: #00205B; /* Bleu foncé */
+  color: white;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.header-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background: linear-gradient(135deg, #00205B 0%, #1a365d 100%);
+}
+
+.university-brand {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.logo-circle {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  border: 3px solid #FCD116; /* Jaune */
+}
+
+.logo-red {
+  flex: 1;
+  background-color: #C8102E; /* Rouge */
+}
+
+.logo-yellow {
+  flex: 1;
+  background-color: #FCD116; /* Jaune */
+}
+
+.logo-green {
+  flex: 1;
+  background-color: #007A5E; /* Vert */
+}
+
+.university-info h1 {
+  margin: 0;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.university-info h2 {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #FCD116; /* Jaune */
+}
+
+.user-info {
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.welcome {
+  font-size: 0.9rem;
+  opacity: 0.9;
+}
+
+.user-name {
+  font-weight: 600;
+  color: #FCD116; /* Jaune */
+  font-size: 1.1rem;
+}
+
+.user-role {
+  background-color: #007A5E; /* Vert */
+  padding: 0.25rem 0.75rem;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  display: inline-block;
+}
+
+.main-nav {
+  background-color: #C8102E; /* Rouge */
+  padding: 0.5rem 2rem;
+}
+
+.nav-list {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 2rem;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+  font-weight: 500;
+}
+
+.nav-link:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  transform: translateY(-2px);
+}
+
+.nav-link.active {
+  background-color: #FCD116; /* Jaune */
+  color: #00205B; /* Bleu foncé */
+  font-weight: 600;
+}
+
+.admin-link {
+  background-color: #00205B; /* Bleu foncé */
+  border: 2px solid #FCD116; /* Jaune */
+}
+
+.admin-link:hover {
+  background-color: #00308B;
+}
