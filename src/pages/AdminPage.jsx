@@ -1,14 +1,23 @@
 import React from 'react';
 import Layout from '../components/layout/Layout';
 
-const AdminPage = () => {
+const AdminPage = ({ onLogout }) => {
+  const handleLogout = () => {
+    if (onLogout) {
+      onLogout();
+    }
+  };
+
   return (
-    <Layout userType="admin" userName="Administrateur Principal">
+    <Layout 
+      userType="admin" 
+      userName="Administrateur Principal"
+      onLogout={handleLogout}
+    >
       <div className="admin-dashboard">
         <h1 className="page-title">Interface Administrateur</h1>
         
         <div className="dashboard-grid">
-          {/* Section statistiques */}
           <div className="stats-section">
             <h2 className="section-title">Statistiques générales</h2>
             <div className="stats-grid">
@@ -31,7 +40,6 @@ const AdminPage = () => {
             </div>
           </div>
 
-          {/* Section actions rapides */}
           <div className="quick-actions">
             <h2 className="section-title">Actions rapides</h2>
             <div className="actions-grid">
@@ -44,7 +52,6 @@ const AdminPage = () => {
             </div>
           </div>
 
-          {/* Section derniers encadrements */}
           <div className="recent-section">
             <h2 className="section-title">Derniers encadrements ajoutés</h2>
             <div className="table-container">
